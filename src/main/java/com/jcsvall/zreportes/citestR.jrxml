@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="citesReporte" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="3" bottomMargin="20" uuid="71f7d327-95f6-4c9f-aad0-d9f29f0edb79">
-	<property name="ireport.zoom" value="3.0"/>
-	<property name="ireport.x" value="453"/>
-	<property name="ireport.y" value="0"/>
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="696"/>
 	<parameter name="PATH_IMG_CITES" class="java.lang.String"/>
 	<parameter name="PATH_IMG_LOGOSV" class="java.lang.String"/>
 	<queryString>
@@ -464,7 +464,7 @@
 			<staticText>
 				<reportElement x="279" y="294" width="72" height="21" isPrintWhenDetailOverflows="true" uuid="fb316421-5c79-4380-89a7-a02ef3fcc531"/>
 				<textElement textAlignment="Center">
-					<font size="7"/>
+					<font size="6"/>
 				</textElement>
 				<text><![CDATA[12a. País de la última reexportación]]></text>
 			</staticText>
@@ -476,11 +476,12 @@
 				<text><![CDATA[Certificado No.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="497" y="294" width="75" height="25" isPrintWhenDetailOverflows="true" uuid="39303ad0-1549-4859-a5fc-9d08978490fd"/>
-				<textElement textAlignment="Center">
-					<font fontName="SansSerif" size="6"/>
+				<reportElement x="497" y="294" width="75" height="20" isPrintWhenDetailOverflows="true" uuid="39303ad0-1549-4859-a5fc-9d08978490fd"/>
+				<textElement>
+					<font fontName="SansSerif" size="5"/>
 				</textElement>
-				<text><![CDATA[12b. Número del establecimiento o fecha de adquisición]]></text>
+				<text><![CDATA[12b. No. del establecimiento** 
+       o fecha de adquisición***]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="424" y="294" width="22" height="10" isPrintWhenDetailOverflows="true" uuid="2988d2c2-4c60-4f0f-80da-a2e819f48740"/>
@@ -594,7 +595,7 @@
 			<staticText>
 				<reportElement x="279" y="362" width="72" height="21" isPrintWhenDetailOverflows="true" uuid="82a75061-caea-47cf-a1f0-edad508850d3"/>
 				<textElement textAlignment="Center">
-					<font size="7"/>
+					<font size="6"/>
 				</textElement>
 				<text><![CDATA[12a. País de la última reexportación]]></text>
 			</staticText>
@@ -606,11 +607,12 @@
 				<text><![CDATA[Certificado No.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="497" y="362" width="75" height="25" isPrintWhenDetailOverflows="true" uuid="e6acf74d-4de8-4289-a4dd-3a24b374edd9"/>
-				<textElement textAlignment="Center">
-					<font fontName="SansSerif" size="6"/>
+				<reportElement x="497" y="362" width="75" height="20" isPrintWhenDetailOverflows="true" uuid="e6acf74d-4de8-4289-a4dd-3a24b374edd9"/>
+				<textElement>
+					<font fontName="SansSerif" size="5"/>
 				</textElement>
-				<text><![CDATA[12b. Número del establecimiento o fecha de adquisición]]></text>
+				<text><![CDATA[12b. No. del establecimiento**
+       o fecha de adquisición***]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="424" y="362" width="22" height="10" isPrintWhenDetailOverflows="true" uuid="b3061187-4af1-4e8f-8ee7-c5bed9a97161"/>
@@ -724,7 +726,7 @@
 			<staticText>
 				<reportElement x="279" y="430" width="72" height="21" isPrintWhenDetailOverflows="true" uuid="2d9a3f04-d2c4-43f6-8401-c6bceabc46d7"/>
 				<textElement textAlignment="Center">
-					<font size="7"/>
+					<font size="6"/>
 				</textElement>
 				<text><![CDATA[12a. País de la última reexportación]]></text>
 			</staticText>
@@ -736,11 +738,12 @@
 				<text><![CDATA[Certificado No.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="497" y="430" width="75" height="25" isPrintWhenDetailOverflows="true" uuid="89a744e5-6fd7-40db-bc46-20b042301751"/>
-				<textElement textAlignment="Center">
-					<font fontName="SansSerif" size="6"/>
+				<reportElement x="497" y="430" width="75" height="20" isPrintWhenDetailOverflows="true" uuid="89a744e5-6fd7-40db-bc46-20b042301751"/>
+				<textElement>
+					<font fontName="SansSerif" size="5"/>
 				</textElement>
-				<text><![CDATA[12b. Número del establecimiento o fecha de adquisición]]></text>
+				<text><![CDATA[12b. No. del establecimiento**
+       o fecha de adquisición***]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="424" y="430" width="22" height="10" isPrintWhenDetailOverflows="true" uuid="5d11aa03-5058-40a5-a98f-02a0e4cc20f1"/>
@@ -854,7 +857,7 @@
 			<staticText>
 				<reportElement x="279" y="498" width="72" height="21" isPrintWhenDetailOverflows="true" uuid="28b5a40c-d928-40af-8260-c53277eddc8c"/>
 				<textElement textAlignment="Center">
-					<font size="7"/>
+					<font size="6"/>
 				</textElement>
 				<text><![CDATA[12a. País de la última reexportación]]></text>
 			</staticText>
@@ -866,11 +869,12 @@
 				<text><![CDATA[Certificado No.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="497" y="498" width="75" height="25" isPrintWhenDetailOverflows="true" uuid="8ac83e74-5028-41b0-bee4-91b01b591d4c"/>
-				<textElement textAlignment="Center">
-					<font size="6"/>
+				<reportElement x="497" y="498" width="75" height="20" isPrintWhenDetailOverflows="true" uuid="8ac83e74-5028-41b0-bee4-91b01b591d4c"/>
+				<textElement>
+					<font size="5"/>
 				</textElement>
-				<text><![CDATA[12b. Número del establecimiento o fecha de adquisición]]></text>
+				<text><![CDATA[12b. No. del establecimiento**
+       o fecha de adquisición***]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="424" y="498" width="22" height="10" isPrintWhenDetailOverflows="true" uuid="f89451eb-bf86-4c3f-a971-e616f9f0c79f"/>
@@ -1537,28 +1541,28 @@ Verde Copia/Oficina CITES]]></text>
 				<textFieldExpression><![CDATA[$F{fecha2D}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="497" y="321" width="75" height="11" isPrintWhenDetailOverflows="true" uuid="568339b8-2b40-4766-88b5-5e9f15ffccfb"/>
+				<reportElement x="497" y="317" width="75" height="14" isPrintWhenDetailOverflows="true" uuid="568339b8-2b40-4766-88b5-5e9f15ffccfb"/>
 				<textElement>
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{numEstableciA}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="497" y="389" width="75" height="11" isPrintWhenDetailOverflows="true" uuid="e51fc947-6833-426c-869a-48fe4818191f"/>
+				<reportElement x="497" y="385" width="75" height="14" isPrintWhenDetailOverflows="true" uuid="e51fc947-6833-426c-869a-48fe4818191f"/>
 				<textElement>
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{numEstableciB}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="497" y="457" width="75" height="11" isPrintWhenDetailOverflows="true" uuid="de31ac11-6195-4a7b-a7e1-252d828d8e6f"/>
+				<reportElement x="497" y="452" width="75" height="14" isPrintWhenDetailOverflows="true" uuid="de31ac11-6195-4a7b-a7e1-252d828d8e6f"/>
 				<textElement>
 					<font size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{numEstableciC}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="497" y="525" width="75" height="11" isPrintWhenDetailOverflows="true" uuid="d41ba1c6-2395-42ab-b8aa-d2f9ed3bc85a"/>
+				<reportElement x="497" y="520" width="75" height="14" isPrintWhenDetailOverflows="true" uuid="d41ba1c6-2395-42ab-b8aa-d2f9ed3bc85a"/>
 				<textElement>
 					<font size="7"/>
 				</textElement>
@@ -1613,14 +1617,14 @@ Santa Tecla, Final 1 Av. Norte y 13 Calle Oriente y Av. Manuel Gallardo]]></text
 				<textFieldExpression><![CDATA[$F{exportacion}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="281" y="1" width="95" height="10" uuid="023247ba-5316-4d57-8810-9224761e854b"/>
+				<reportElement x="281" y="1" width="98" height="10" isPrintWhenDetailOverflows="true" uuid="023247ba-5316-4d57-8810-9224761e854b"/>
 				<textElement>
 					<font size="7"/>
 				</textElement>
-				<text><![CDATA[PERMISO/CERTIFICADO No.]]></text>
+				<text><![CDATA[PERMISO/CERTIFICADO Nº.]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="379" y="0" width="44" height="11" isPrintWhenDetailOverflows="true" forecolor="#FF0000" uuid="d8028c10-db1f-4911-afc0-ac541b77f441"/>
+				<reportElement x="381" y="0" width="42" height="11" isPrintWhenDetailOverflows="true" forecolor="#FF0000" uuid="d8028c10-db1f-4911-afc0-ac541b77f441"/>
 				<textElement>
 					<font size="8" isBold="true"/>
 				</textElement>

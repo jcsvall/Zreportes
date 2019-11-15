@@ -54,7 +54,7 @@ public class App {
         ciObject.setEstampillaSeguridad("1234589");
         ciObject.setValidoHasta("05/03/2019");
         ciObject.setNumeroCertificado("125489");
-        ciObject.setCodicionesEspeciales("Para animales vivos: Este permiso o certificado es válido sólo si las condiciones de transporte se ajustan a las Directrices sobre el transporte de animales vivos o, en caso de transporte aéreo, a la Reglamentación para el transporte de animales vivos de la IATA.");
+        ciObject.setCodicionesEspeciales("Testing");
 
         citesList.add(ciObject);
         try {
@@ -70,6 +70,12 @@ public class App {
             //JasperReport report = (JasperReport) JRLoader.loadObject(new File("jasperFolder/HibernateQueryDemoReport.jasper");
             JasperReport jr = (JasperReport) JRLoader.loadObject(file);
             Map params = new HashMap();
+            
+            String pathImgSv = "C:\\Users\\scjuan\\Documents\\NetBeansProjects\\Zreportes\\elSalvadorEscudo.jpg";        
+            String pathImgCites = "C:\\Users\\scjuan\\Documents\\NetBeansProjects\\Zreportes\\CITES_logo.jpg";       
+            params.put("PATH_IMG_LOGOSV", pathImgSv);
+            params.put("PATH_IMG_CITES", pathImgCites);
+            
             JasperPrint jp = JasperFillManager.fillReport(jr, params, beanCollectionDataSource);
             JasperViewer jv = new JasperViewer(jp);
             jv.show();
