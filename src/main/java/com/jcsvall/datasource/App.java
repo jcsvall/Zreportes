@@ -50,11 +50,12 @@ public class App {
         ciObject.setValidoHasta("validoHasta");
         ciObject.setImportador("Wallmart S.A de C.V");
         ciObject.setExportador("Dell International");
-        ciObject.setPaisDeImportacion("EL Salvador");
+        ciObject.setPaisDeImportacion("EL Guatemala");
         ciObject.setEstampillaSeguridad("1234589");
         ciObject.setValidoHasta("05/03/2019");
         ciObject.setNumeroCertificado("125489");
         ciObject.setCodicionesEspeciales("Testing");
+        ciObject.setNombreCientificoA("Phalaenopsis sp\nPLANTA DE ORQUIDEA PHALAENOPSIS YU PIN ACACIA SIN TIERRA");
 
         citesList.add(ciObject);
         try {
