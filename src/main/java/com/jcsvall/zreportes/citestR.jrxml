@@ -2,7 +2,7 @@
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="citesReporte" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="3" bottomMargin="20" uuid="71f7d327-95f6-4c9f-aad0-d9f29f0edb79">
 	<property name="ireport.zoom" value="2.0"/>
 	<property name="ireport.x" value="0"/>
-	<property name="ireport.y" value="696"/>
+	<property name="ireport.y" value="548"/>
 	<parameter name="PATH_IMG_CITES" class="java.lang.String"/>
 	<parameter name="PATH_IMG_LOGOSV" class="java.lang.String"/>
 	<queryString>
@@ -236,18 +236,18 @@
 	<title>
 		<band height="62" splitType="Stretch">
 			<image>
-				<reportElement x="262" y="3" width="52" height="34" uuid="c3ceb3da-94b9-4c96-b46a-053845b3c48f"/>
+				<reportElement x="262" y="9" width="52" height="34" uuid="c3ceb3da-94b9-4c96-b46a-053845b3c48f"/>
 				<imageExpression><![CDATA[$P{PATH_IMG_LOGOSV}]]></imageExpression>
 			</image>
 			<staticText>
-				<reportElement x="207" y="38" width="277" height="10" isPrintWhenDetailOverflows="true" uuid="09f29802-b060-4d55-8f1e-4e7305140ae2"/>
+				<reportElement x="207" y="43" width="277" height="9" isPrintWhenDetailOverflows="true" uuid="09f29802-b060-4d55-8f1e-4e7305140ae2"/>
 				<textElement>
 					<font fontName="SansSerif" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[MINISTERIO DE AGRICULTURA Y GANADERIA]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="243" y="48" width="241" height="9" isPrintWhenDetailOverflows="true" uuid="87fab87c-53ff-49e2-a56c-efcded5f0139"/>
+				<reportElement x="243" y="52" width="241" height="9" isPrintWhenDetailOverflows="true" uuid="87fab87c-53ff-49e2-a56c-efcded5f0139"/>
 				<textElement>
 					<font fontName="SansSerif" size="7"/>
 				</textElement>
@@ -363,11 +363,12 @@
 				<reportElement x="497" y="294" width="75" height="39" uuid="a1e31839-5269-47db-9be8-fc06bf903db6"/>
 			</rectangle>
 			<staticText>
-				<reportElement x="0" y="236" width="154" height="29" isPrintWhenDetailOverflows="true" uuid="d2d2d388-74cd-4cfa-93dc-03028fd22621"/>
-				<textElement textAlignment="Center">
+				<reportElement x="5" y="236" width="149" height="29" isPrintWhenDetailOverflows="true" uuid="d2d2d388-74cd-4cfa-93dc-03028fd22621"/>
+				<textElement>
 					<font size="7"/>
 				</textElement>
-				<text><![CDATA[7.8 Nombre cientifico (género y especie) ]]></text>
+				<text><![CDATA[7.8 Nombre cientifico (género y especie)
+      y nombre común ]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="154" y="236" width="125" height="29" isPrintWhenDetailOverflows="true" uuid="e87f17f1-5e1c-461f-a113-b3086f798c2e"/>
@@ -413,7 +414,7 @@
 				<text><![CDATA[7/8]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="154" y="275" width="14" height="9" uuid="7e32cb12-3d49-4563-b376-8fa81fa3718b"/>
+				<reportElement x="154" y="275" width="10" height="9" uuid="7e32cb12-3d49-4563-b376-8fa81fa3718b"/>
 				<textElement textAlignment="Center">
 					<font size="7"/>
 				</textElement>
@@ -544,7 +545,7 @@
 				<text><![CDATA[7/8]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="154" y="343" width="14" height="9" uuid="a0252686-a552-45f6-b0e5-5937286e4da7"/>
+				<reportElement x="154" y="343" width="10" height="9" uuid="a0252686-a552-45f6-b0e5-5937286e4da7"/>
 				<textElement textAlignment="Center">
 					<font size="7"/>
 				</textElement>
@@ -675,7 +676,7 @@
 				<text><![CDATA[7/8]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="154" y="411" width="14" height="9" uuid="11c97c39-df3e-46b1-b557-045458d98722"/>
+				<reportElement x="154" y="411" width="10" height="9" uuid="11c97c39-df3e-46b1-b557-045458d98722"/>
 				<textElement textAlignment="Center">
 					<font size="7"/>
 				</textElement>
@@ -806,7 +807,7 @@
 				<text><![CDATA[7/8]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="154" y="479" width="14" height="9" uuid="376ed3d0-d8a5-4459-915d-3bda16c84060"/>
+				<reportElement x="154" y="479" width="10" height="9" uuid="376ed3d0-d8a5-4459-915d-3bda16c84060"/>
 				<textElement textAlignment="Center">
 					<font size="7"/>
 				</textElement>
@@ -943,11 +944,11 @@
 				<text><![CDATA[14. Aprobación de la exportación]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="219" y="616" width="227" height="10" isPrintWhenDetailOverflows="true" uuid="d1c5c8d3-8618-4758-9d0d-e6f02a3a012b"/>
+				<reportElement x="212" y="616" width="227" height="10" isPrintWhenDetailOverflows="true" uuid="d1c5c8d3-8618-4758-9d0d-e6f02a3a012b"/>
 				<textElement textAlignment="Center">
 					<font size="7"/>
 				</textElement>
-				<text><![CDATA[15. Conocimiento de Embarque/Carta de reporte aéreo ]]></text>
+				<text><![CDATA[15. Conocimiento de Embarque/Carta de porte aéreo ]]></text>
 			</staticText>
 			<rectangle>
 				<reportElement x="62" y="641" width="43" height="10" uuid="d6a46f58-5776-42d5-9279-8acfe6dbeb1e"/>
@@ -1221,14 +1222,14 @@ Verde Copia/Oficina CITES]]></text>
 			<textField isBlankWhenNull="true">
 				<reportElement x="54" y="267" width="100" height="25" isPrintWhenDetailOverflows="true" uuid="7dc6835a-79ff-41dd-bca1-128b919b1310"/>
 				<textElement>
-					<font size="7"/>
+					<font size="5"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{nombreCientificoA}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="179" y="274" width="100" height="10" isPrintWhenDetailOverflows="true" uuid="95046461-569c-4f9b-abc5-8b145d5a4ba7"/>
+				<reportElement x="168" y="274" width="109" height="10" isPrintWhenDetailOverflows="true" uuid="95046461-569c-4f9b-abc5-8b145d5a4ba7"/>
 				<textElement>
-					<font size="7"/>
+					<font size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{descripcionParteDerivadoA}]]></textFieldExpression>
 			</textField>
@@ -1263,14 +1264,14 @@ Verde Copia/Oficina CITES]]></text>
 			<textField isBlankWhenNull="true">
 				<reportElement x="54" y="335" width="100" height="25" isPrintWhenDetailOverflows="true" uuid="172f4f06-f5b9-47fd-a1e3-5f61ed5b2f6d"/>
 				<textElement>
-					<font size="7"/>
+					<font size="5"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{nombreCientificoB}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="179" y="343" width="100" height="10" isPrintWhenDetailOverflows="true" uuid="4cf8129c-16c2-4f30-87b8-8e918f7eb91f"/>
+				<reportElement x="168" y="343" width="109" height="10" isPrintWhenDetailOverflows="true" uuid="4cf8129c-16c2-4f30-87b8-8e918f7eb91f"/>
 				<textElement>
-					<font size="7"/>
+					<font size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{descripcionParteDerivadoB}]]></textFieldExpression>
 			</textField>
@@ -1291,14 +1292,14 @@ Verde Copia/Oficina CITES]]></text>
 			<textField isBlankWhenNull="true">
 				<reportElement x="54" y="403" width="100" height="25" isPrintWhenDetailOverflows="true" uuid="02bed2ba-87f8-4e23-b75e-72f6a04da120"/>
 				<textElement>
-					<font size="7"/>
+					<font size="5"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{nombreCientificoC}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="179" y="411" width="100" height="10" isPrintWhenDetailOverflows="true" uuid="ee3c4ef4-da8b-47c1-88c0-6b086caba0c6"/>
+				<reportElement x="168" y="411" width="109" height="10" isPrintWhenDetailOverflows="true" uuid="ee3c4ef4-da8b-47c1-88c0-6b086caba0c6"/>
 				<textElement>
-					<font size="7"/>
+					<font size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{descripcionParteDerivadoC}]]></textFieldExpression>
 			</textField>
@@ -1319,14 +1320,14 @@ Verde Copia/Oficina CITES]]></text>
 			<textField isBlankWhenNull="true">
 				<reportElement x="54" y="471" width="100" height="25" isPrintWhenDetailOverflows="true" uuid="9f2d5b08-c0ef-4cf3-a19c-fac9040462ea"/>
 				<textElement>
-					<font size="7"/>
+					<font size="5"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{nombreCientificoD}]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
-				<reportElement x="179" y="479" width="100" height="10" uuid="8317278f-f485-4f2d-b296-972b6161b32d"/>
+				<reportElement x="168" y="479" width="109" height="10" uuid="8317278f-f485-4f2d-b296-972b6161b32d"/>
 				<textElement>
-					<font size="7"/>
+					<font size="6"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{descripcionParteDerivadoD}]]></textFieldExpression>
 			</textField>
@@ -1606,7 +1607,7 @@ Santa Tecla, Final 1 Av. Norte y 13 Calle Oriente y Av. Manuel Gallardo]]></text
 				<textFieldExpression><![CDATA[$F{fechaExpedicion}]]></textFieldExpression>
 			</textField>
 			<image>
-				<reportElement x="22" y="1" width="97" height="66" uuid="6c11e219-b0bf-4fd3-b91a-d43d3408e02e"/>
+				<reportElement x="16" y="6" width="97" height="66" uuid="6c11e219-b0bf-4fd3-b91a-d43d3408e02e"/>
 				<imageExpression><![CDATA[$P{PATH_IMG_CITES}]]></imageExpression>
 			</image>
 			<textField>
@@ -1617,14 +1618,14 @@ Santa Tecla, Final 1 Av. Norte y 13 Calle Oriente y Av. Manuel Gallardo]]></text
 				<textFieldExpression><![CDATA[$F{exportacion}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement x="281" y="1" width="98" height="10" isPrintWhenDetailOverflows="true" uuid="023247ba-5316-4d57-8810-9224761e854b"/>
+				<reportElement x="281" y="2" width="98" height="10" isPrintWhenDetailOverflows="true" uuid="023247ba-5316-4d57-8810-9224761e854b"/>
 				<textElement>
 					<font size="7"/>
 				</textElement>
 				<text><![CDATA[PERMISO/CERTIFICADO Nº.]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="381" y="0" width="42" height="11" isPrintWhenDetailOverflows="true" forecolor="#FF0000" uuid="d8028c10-db1f-4911-afc0-ac541b77f441"/>
+				<reportElement x="381" y="1" width="42" height="11" isPrintWhenDetailOverflows="true" forecolor="#FF0000" uuid="d8028c10-db1f-4911-afc0-ac541b77f441"/>
 				<textElement>
 					<font size="8" isBold="true"/>
 				</textElement>
@@ -1646,6 +1647,20 @@ Santa Tecla, Final 1 Av. Norte y 13 Calle Oriente y Av. Manuel Gallardo]]></text
 				</textElement>
 				<text><![CDATA[Para animales vivos: Este permiso o certificado es válido sólo si las condiciones de transporte se ajustan a las Directrices sobre el transporte de animales vivos o, en caso de transporte aéreo, a la Reglamentación para el transporte de animales vivos de la IATA.]]></text>
 			</staticText>
+			<staticText>
+				<reportElement x="399" y="692" width="120" height="10" isPrintWhenDetailOverflows="true" uuid="83ee3db7-7f90-4936-bff7-63c6459441ff"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[PERMISO/CERTIFICADO CITES Nº.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="522" y="691" width="42" height="11" isPrintWhenDetailOverflows="true" forecolor="#FF0000" uuid="aa7ca902-d6bf-4ff0-8a1b-ddbf06cb30b6"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{numeroCertificado}]]></textFieldExpression>
+			</textField>
 		</band>
 	</pageHeader>
 </jasperReport>

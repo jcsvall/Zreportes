@@ -56,6 +56,7 @@ public class App {
         ciObject.setNumeroCertificado("125489");
         ciObject.setCodicionesEspeciales("Testing");
         ciObject.setNombreCientificoA("Phalaenopsis sp\nPLANTA DE ORQUIDEA PHALAENOPSIS YU PIN ACACIA SIN TIERRA");
+        ciObject.setDescripcionParteDerivadoA("BAL"+" "+"(Artículo de cuero(pequeño))");
 
         citesList.add(ciObject);
         try {
